@@ -7,7 +7,7 @@ public class DefaultCountingOutRhymer {
     private static final int FAILURE_CODE = -1;
     private static final int EMPTY_INDICATOR  = -1;
     private static final int FULL_INDICATOR  = 11;
-    private final int[] numbers = new int[MAX_SIZE ];
+    private final int[] numbers = new int[MAX_SIZE ]; // TODO: usunięcie tej spacji przed zamknięciem nawiasu kwadratowego
 
     private int total = STARTING_VALUE;
 
